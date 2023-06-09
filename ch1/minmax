@@ -1,0 +1,8 @@
+minmax.o: minmax.c
+	gcc -c minmax.c -o minmax.o
+
+stats.o: stats.c
+	gcc -c stats.c -o stats.o
+
+minmax: minmax.o stats.o	
+	gcc minmax.o stats.o -o minmax
