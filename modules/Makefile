@@ -5,7 +5,7 @@ minmax: minmax.o stats.o
 CFLAGS = -Wall -Werror -g -I$(Include)
 
 # Files .o, executable programs and arguments
-OBJS = minxmax.o stats.o
+OBJS = minmax.o stats.o
 EXEC = minmax
 ARGS = arg1 arg2 arg3s
 
