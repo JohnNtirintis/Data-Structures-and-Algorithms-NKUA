@@ -1,0 +1,17 @@
+# By default, Git stores all files except those listed in .gitignore (blacklist).
+# However, it is often more convenient to do the opposite, which means not storing any # files
+# except for those specified in .gitignore (whitelist). This can be achieved by ignoring # everything (*)
+# and using the "!" which means "do not ignore this specific pattern".
+
+# Ignore all files (not directories)
+*
+!*/
+
+# Exceptions:
+!*.c
+!*.h
+!*.mk
+!Makefile
+!.gitignore
+!README.md
+!.vscode/*.json

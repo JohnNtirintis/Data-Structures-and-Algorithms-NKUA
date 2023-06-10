@@ -23,5 +23,4 @@ int stats_find_max(int array[], int size){
     }
 
     return max;
-
 }

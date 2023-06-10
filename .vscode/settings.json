@@ -1,0 +1,30 @@
+{
+	"c_project": {
+		// Name of the executable program (only for compiling multiple files & make)
+		"program": "minmax",
+
+		// Directory where the program is located (only for compiling with make)
+		"dir": "programs/minmax",
+
+		// The values declared in arg1 - arg8 below are automatically passed as arguments
+		// to any program we run (either with Ctrl-Shift-B or in the debugger).
+		//
+		// The easiest way to change them: Terminal / Run task / Set program arguments
+		//
+		// - For input redirection, we use arguments: "<", "input-file"
+		// - For output redirection, we use arguments: ">", "output-file"
+		//
+		// We terminate the list with "#", and any arguments after that are ignored.
+		//
+
+		// Arguments 
+		"arg1": "-4",
+		"arg2": "35",
+		"arg3": "3",
+		"arg4": "52",
+		"arg5": "#",
+		"arg6": "#",
+		"arg7": "#",
+		"arg8": "#"
+	},
+}
